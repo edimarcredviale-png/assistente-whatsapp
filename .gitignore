@@ -1,0 +1,9 @@
+.env
+.env.local
+node_modules/
+npm-debug.log
+assistente.db
+.wwebjs_cache/
+.wwebjs_auth/
+temp/
+.DS_Store
