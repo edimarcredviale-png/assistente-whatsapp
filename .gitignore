@@ -7,3 +7,4 @@ assistente.db
 .wwebjs_auth/
 temp/
 .DS_Store
+.env
