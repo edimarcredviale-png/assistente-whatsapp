@@ -1,7 +1,7 @@
 {
   "name": "assistente-whatsapp-twilio",
-  "version": "2.0.0",
-  "description": "Bot WhatsApp com Twilio + Claude AI",
+  "version": "3.0.0",
+  "description": "Assistente WhatsApp com banco de dados",
   "main": "bot-twilio-whatsapp.js",
   "scripts": {
     "start": "node bot-twilio-whatsapp.js"
@@ -10,7 +10,7 @@
     "twilio": "^4.10.0",
     "express": "^4.18.2",
     "@anthropic-ai/sdk": "^0.24.3",
-    "sqlite3": "^5.1.7",
+    "pg": "^8.11.0",
     "dotenv": "^16.3.1"
   }
 }
