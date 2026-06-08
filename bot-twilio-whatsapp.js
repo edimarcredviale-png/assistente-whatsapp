@@ -68,7 +68,7 @@ const client = new Anthropic({
 async function parseMessage(userPhone, message) {
   try {
     const response = await client.messages.create({
-      model: 'claude-3-5-sonnet-20241022',
+      model: 'claude-3-haiku-20240307',
       max_tokens: 1000,
       system: `Você é um assistente pessoal que ajuda a gerenciar despesas e agenda.
       
